@@ -38,3 +38,4 @@ bin/res/drawable-ldpi/ic_launcher.png
 bin/res/drawable-mdpi/ic_launcher.png
 
 bin/resources.ap_
+/bin

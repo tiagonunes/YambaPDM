@@ -26,7 +26,7 @@ public class StatusActivity extends Activity
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
-		Log.d(TAG, "onCreate");
+		Log.d(TAG, "onCreate"); 
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 		submit = (Button) findViewById(R.id.buttonUpdate);
