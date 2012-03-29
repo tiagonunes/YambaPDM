@@ -34,7 +34,7 @@ public class StatusActivity extends Activity
 		App app = (App) getApplication();
 		if (app.lastSubmit != null && !app.lastSubmit.isEnabled())
 			disableSubmit(); 
-		app.lastSubmit = submit;
+		app.lastSubmit = submit;   
 		text = (EditText) findViewById(R.id.editText);
 		prefs = PreferenceManager.getDefaultSharedPreferences(this);
 		prefs.registerOnSharedPreferenceChangeListener(this);
